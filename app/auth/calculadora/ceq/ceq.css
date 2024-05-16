@@ -1,0 +1,68 @@
+.table-row {
+    @apply flex flex-row w-full justify-between text-black;
+    @apply p-2 bg-[#C7C7C7] items-center;
+}
+
+.table-row input {
+    @apply w-1/4 text-right pr-4 rounded-md bg-[#e8e8e8] border-[1px] border-black;
+    appearance: none;
+}
+
+.table-row.dark {
+    @apply bg-[#3D5158] text-white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.table-row select {
+    @apply w-1/2 text-right pr-4 rounded-md bg-[#e8e8e8] border-[1px] border-black;
+    appearance: none;
+}
+
+.table-row>* {
+    @apply w-1/4;
+}
+
+.table-row.select {
+    @apply relative;
+}
+
+.table-row.select .arrow {
+    position: absolute;
+    right: 12px;
+    color: black;
+    pointer-events: none;
+}
+
+.table-row option {
+    @apply p-4;
+}
+
+.header h2 {
+    @apply w-1/4 p-2;
+}
+
+.header {
+    @apply flex flex-row justify-between p-2 bg-[#666] text-white items-center rounded-t-md;
+}
+
+.result-row {
+    @apply flex flex-row justify-between p-2;
+    @apply bg-[#C7C7C7];
+}
+
+.result-row p {
+    @apply bg-[#444] p-2 text-white rounded-md;
+}
+
+.result-row.dark {
+    @apply bg-[#3D5158] text-white;
+}

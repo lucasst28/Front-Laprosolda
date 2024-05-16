@@ -1,0 +1,12 @@
+.side-menu {
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    z-index: 999;
+}
+
+.side_menu_link {
+    @apply duration-200 ease-in;
+}
+
+.side_menu_link:hover {
+    @apply opacity-75
+}

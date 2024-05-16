@@ -1,0 +1,5 @@
+.nav_link_middle {
+    border-right-width: 2px;
+    border-left-width: 2px;
+    @apply border-gray-400;
+}
